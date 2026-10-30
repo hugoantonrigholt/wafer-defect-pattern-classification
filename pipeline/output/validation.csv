@@ -1,0 +1,24 @@
+No,What,Result,Pass/Fail
+T1,FR-01 8 position label for every wafer,"shape (5535, 8), values [0 1]",Pass
+T2,"FR-02 label becomes a name, or Normal","10 of 10 named, all zeros gives Normal: True, 0 of 5535 outside the 38 types",Pass
+T3,FR-03 copies removed before the split,"38,015 loaded, 36,991 different, after cleaning 36,890 rows and 36,890 different",Pass
+T4,FR-04 value 3 handled one way,"105 wafers with a 3 before, 0 odd squares after",Pass
+T5,FR-05 every type in every part,"38 types, 0 missing, Near-Full 21 in test, split 70.0/15.0/15.0",Pass
+T6,FR-06 baseline next to the model,"baseline_validation.csv there: True, model and baseline in test_scores.csv: True",Pass
+T7,FR-07 per defect and per number of defects,"wafers per group: {'0': 150, '1': 1035, '2': 1950, '3': 1800, '4': 600, 'all': 5535}",Pass
+T8,FR-08 the 8 types ranked,"most to least problematic: Random, Edge-Loc, Scratch, Loc, Donut, Center, Edge-Ring, Near-Full",Pass
+T9,FR-09 generator for the 38 types,"1,900 maps, 38 types, label and settings with each: True",Pass
+T10,FR-10 where the misses sit,drawn in notebook 06 step 8,Check by eye
+V1,no map in two parts,"maps in common (train-val, train-test, val-test): [0, 0, 0]",Pass
+V2,every type in every part,"smallest type per part (train, val, test): [93, 20, 21]",Pass
+V3,no value 3 left,"values in the cleaned maps: [0, 1, 2]",Pass
+V4,"same seed, same split and scores","split the same: True, two trainings give the same answers: True",Pass
+QC-01,"recall per type, min 70%",lowest Random 71.1%,Pass
+QC-02,"all 8 right, min 60%",68.3% of test wafers,Pass
+QC-03,"precision, min 60%",lowest Scratch 76.9%,Pass
+QC-04,beats the simple model on every type,"F1 higher on 7 of 8, closest Near-Full 93.3% vs 95.2%, all 8 right 68.3% vs 31.2%",Fail
+QC-05,own wafers at most 15 points lower,biggest gap Scratch 71.4 points,Fail
+QC-06,"same seed, same split and scores",same as V4,Pass
+QC-07,training under 60 min,2 s,Pass
+QC-08,one wafer under 50 ms,"8.6 ms, features included",Pass
+QC-09,1000 wafers under 10 s,"0.20 s, features included",Pass

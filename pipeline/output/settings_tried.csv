@@ -1,0 +1,7 @@
+setting,trees,all_eight_right_val,lowest_recall_val,lowest_f1_val,seconds
+100 trees,100,0.6796,0.6903,0.8089,0.7
+300 trees,300,0.6812,0.6814,0.8096,2.0
+600 trees,600,0.6839,0.6814,0.8105,4.4
+"300 trees, min_samples_leaf=5",300,0.6649,0.6637,0.7979,1.9
+"300 trees, max_depth=20",300,0.6825,0.6903,0.8125,2.2
+"300 trees, class_weight=balanced",300,0.6685,0.7434,0.8071,2.1

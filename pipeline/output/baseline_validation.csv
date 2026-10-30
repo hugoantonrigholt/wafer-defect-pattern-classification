@@ -1,0 +1,76 @@
+baseline,defect,score,value
+Guess by share,Center,recall,0.3278
+Guess by share,Center,precision,0.3247
+Guess by share,Center,f1,0.3262
+Guess by share,Donut,recall,0.3172
+Guess by share,Donut,precision,0.3221
+Guess by share,Donut,f1,0.3196
+Guess by share,Edge-Loc,recall,0.3178
+Guess by share,Edge-Loc,precision,0.3178
+Guess by share,Edge-Loc,f1,0.3178
+Guess by share,Edge-Ring,recall,0.325
+Guess by share,Edge-Ring,precision,0.3171
+Guess by share,Edge-Ring,f1,0.321
+Guess by share,Loc,recall,0.4767
+Guess by share,Loc,precision,0.4837
+Guess by share,Loc,f1,0.4801
+Guess by share,Near-Full,recall,0.0
+Guess by share,Near-Full,precision,0.0
+Guess by share,Near-Full,f1,0.0
+Guess by share,Scratch,recall,0.4819
+Guess by share,Scratch,precision,0.4926
+Guess by share,Scratch,f1,0.4872
+Guess by share,Random,recall,0.0177
+Guess by share,Random,precision,0.0171
+Guess by share,Random,f1,0.0174
+Guess by share,all,all 8 right,0.0193
+Always yes,Center,recall,1.0
+Always yes,Center,precision,0.3253
+Always yes,Center,f1,0.4909
+Always yes,Donut,recall,1.0
+Always yes,Donut,precision,0.3253
+Always yes,Donut,f1,0.4909
+Always yes,Edge-Loc,recall,1.0
+Always yes,Edge-Loc,precision,0.3253
+Always yes,Edge-Loc,f1,0.4909
+Always yes,Edge-Ring,recall,1.0
+Always yes,Edge-Ring,precision,0.3253
+Always yes,Edge-Ring,f1,0.4909
+Always yes,Loc,recall,1.0
+Always yes,Loc,precision,0.488
+Always yes,Loc,f1,0.6559
+Always yes,Near-Full,recall,1.0
+Always yes,Near-Full,precision,0.0036
+Always yes,Near-Full,f1,0.0072
+Always yes,Scratch,recall,1.0
+Always yes,Scratch,precision,0.488
+Always yes,Scratch,f1,0.6559
+Always yes,Random,recall,1.0
+Always yes,Random,precision,0.0204
+Always yes,Random,f1,0.04
+Always yes,all,all 8 right,0.0
+Simple model (baseline),Center,recall,0.8289
+Simple model (baseline),Center,precision,0.9042
+Simple model (baseline),Center,f1,0.8649
+Simple model (baseline),Donut,recall,0.8322
+Simple model (baseline),Donut,precision,0.9258
+Simple model (baseline),Donut,f1,0.8765
+Simple model (baseline),Edge-Loc,recall,0.0
+Simple model (baseline),Edge-Loc,precision,0.0
+Simple model (baseline),Edge-Loc,f1,0.0
+Simple model (baseline),Edge-Ring,recall,0.9467
+Simple model (baseline),Edge-Ring,precision,0.8917
+Simple model (baseline),Edge-Ring,f1,0.9184
+Simple model (baseline),Loc,recall,0.7811
+Simple model (baseline),Loc,precision,0.8762
+Simple model (baseline),Loc,f1,0.8259
+Simple model (baseline),Near-Full,recall,0.95
+Simple model (baseline),Near-Full,precision,1.0
+Simple model (baseline),Near-Full,f1,0.9744
+Simple model (baseline),Scratch,recall,0.5622
+Simple model (baseline),Scratch,precision,0.662
+Simple model (baseline),Scratch,f1,0.6081
+Simple model (baseline),Random,recall,0.0442
+Simple model (baseline),Random,precision,0.2
+Simple model (baseline),Random,f1,0.0725
+Simple model (baseline),all,all 8 right,0.3109

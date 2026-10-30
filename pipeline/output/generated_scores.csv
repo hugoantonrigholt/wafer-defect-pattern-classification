@@ -1,0 +1,9 @@
+defect,recall_real_test,recall_my_wafers,gap_points
+Center,0.945,0.7967,14.8
+Donut,0.9383,0.8967,4.2
+Edge-Loc,0.8439,0.755,8.9
+Edge-Ring,0.9533,0.92,3.3
+Loc,0.8752,0.3156,56.0
+Near-Full,1.0,1.0,0.0
+Scratch,0.86,0.1456,71.4
+Random,0.7105,1.0,-29.0

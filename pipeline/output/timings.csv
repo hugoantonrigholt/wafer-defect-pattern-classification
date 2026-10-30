@@ -1,0 +1,4 @@
+criterion,measured,target
+QC-07 training (s),2.2,3600
+QC-08 one wafer (ms),8.6,50
+QC-09 1000 wafers (s),0.2,10
