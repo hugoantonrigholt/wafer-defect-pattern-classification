@@ -1,0 +1,18 @@
+# the dataset is big and comes from Kaggle, so it doesn't go in git
+data/*
+!data/README.md
+
+# trained models and the big made-again data, the csv results in output/ do go in git
+*/output/*.joblib
+*/output/split.npz
+*/output/features.npz
+*/output/generated.npz
+.ipynb_checkpoints/
+__pycache__/
+/.idea
+.venv/
+venv/
+*.pyc
+.vscode/
+.DS_Store
+Thumbs.db
