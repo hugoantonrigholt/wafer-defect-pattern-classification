@@ -1,0 +1,13 @@
+No,What,Result,Pass/Fail
+T1,"8 answers per wafer, only 0 and 1","shape (5534, 8)",Pass
+T2,all zeros is called Normal,Normal,Pass
+T3,no copies left,"36,890 maps, 36,890 different",Pass
+T4,no value 3 left,values [0 1 2],Pass
+T5,all 38 types in every part,"types per part [38, 38, 38]",Pass
+V1,no map in two split sets,"in common: [0, 0, 0]",Pass
+QC-01,recall at least 70% on every defect,lowest Random 72.8%,Pass
+QC-02,all 8 right on at least 60%,66.1%,Pass
+QC-03,precision at least 60% on every defect,lowest Scratch 75.9%,Pass
+QC-04,higher F1 than the baseline on every defect,higher on 7 of 8,Fail
+QC-05,my wafers at most 15 points lower,biggest gap 48.2 points,Fail
+QC-08,one wafer under 50 ms,9.0 ms,Pass
